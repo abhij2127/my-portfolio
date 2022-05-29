@@ -90,13 +90,22 @@ main>section ol{
     color: var(--gray2);
 }
 
+
+main>section ol p{
+    margin: 10px;
+}
+
 main>section h1{
     font-family: 'Kaushan Script', cursive;
-    font-size:64px;
+    font-size:56px;
     margin: 0;
 }
 main>section.colored h1{
     color: var(--gray6);
+}
+
+main h1, main h2, main h3, main h4, main h5{
+    margin: 0;
 }
 .test{
     
