@@ -64,9 +64,8 @@ header>p{
     padding-bottom: 2rem;
     clip-path: polygon(56% 0%, 100% 0, 100% 65%, 88% 100%, 0 53%, 0 0);
     animation-name: head-anime;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 
 }
