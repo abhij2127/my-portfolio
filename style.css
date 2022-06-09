@@ -10,7 +10,7 @@
     --purple1: #B118C8;
     --purple2: #44355B;
     --purple3: #44355B;
-    --purple4: #221E22;   
+    --purple4: #221E22;
     --purple5: #653e9f;
 }
 
@@ -31,12 +31,12 @@ body{
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    
+
 }
 
 
 header{
-    padding: 1em; 
+    padding: 1em;
     background: var(--bg-head);
     transition: background 500ms ease-in-out, color 1000ms ease-in-out;
     text-align: center;
@@ -120,13 +120,13 @@ main h1, main h2, main h3, main h4, main h5{
     margin: 0;
 }
 .test{
-    
+
 
 }
 
 .colored{
     background: #6c7983;
-    
+
 }
 .colored ol{
     color: var(--gray5);
@@ -152,7 +152,7 @@ main h1, main h2, main h3, main h4, main h5{
 
 @media screen and (max-width: 800px) {
     :root{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     main{
