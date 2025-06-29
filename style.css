@@ -139,6 +139,7 @@ main h1, main h2, main h3, main h4, main h5{
     top:40%;
     display: flex;
     justify-content: space-between;
+    pointer-events: none;
 }
 
 .slider-container>div{
@@ -148,8 +149,18 @@ main h1, main h2, main h3, main h4, main h5{
     background: white;
     opacity: 0.3;
     border-radius: 6px;
+    pointer-events: auto;
 }
 
+#res{
+    padding: 0.5rem;
+    border-radius: 13px;
+    background-color: var(--gray5);
+    color: var(--gray2);
+    font-family: 'Montserrat', sans-serif;
+    size: 45px;
+    border:none;
+}
 @media screen and (max-width: 800px) {
     :root{
         font-size: 14px;
